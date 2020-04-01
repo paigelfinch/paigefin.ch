@@ -7,7 +7,7 @@ const dxInput = document.querySelector("input.dx")
 const dyInput = document.querySelector("input.dy")
 
 function preload() {
-  font = loadFont("SpaceGrotesk-Medium.otf")
+  font = loadFont("assets/SpaceGrotesk-Medium.otf")
 }
 
 if (new Date().getHours() < 12) {
